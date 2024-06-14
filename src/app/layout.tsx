@@ -1,8 +1,11 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { League_Spartan } from "next/font/google";
+// import { League_Gothic } from "next/font/google";
+// import { Inter } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+// const inter = League_Gothic({ subsets: ["latin"] });
+const inter = League_Spartan({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
