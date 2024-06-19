@@ -2,22 +2,11 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <div className="w-2/4 mx-auto mt-[3.75rem]">
+    <div className="mt-[3.75rem]">
       <div>
         <h1 className="text-[2em] leading-[1.84em] font-bold">Skills</h1>
         {/* Logo */}
-        <div className="flex flex-wrap gap-9 ">
-          <SKILLSLOGO />
-          <SKILLSLOGO />
-          <SKILLSLOGO />
-          <SKILLSLOGO />
-          <SKILLSLOGO />
-          <SKILLSLOGO />
-          <SKILLSLOGO />
-          <SKILLSLOGO />
-          <SKILLSLOGO />
-          <SKILLSLOGO />
-          <SKILLSLOGO />
+        <div className="grid grid-cols-2 md:grid-cols-5 gap-2">
           <SKILLSLOGO />
           <SKILLSLOGO />
           <SKILLSLOGO />
@@ -80,7 +69,7 @@ const SKILLSLOGO = () => {
           </clipPath>
         </defs>
       </svg>
-      <p className="text-[1em]">HTML</p>
+      <p className="text-[1.2em]">HTML</p>
     </div>
   );
 };

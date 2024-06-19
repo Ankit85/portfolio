@@ -7,18 +7,23 @@ import Card from "@/components/Card";
 
 export default function Home() {
   return (
-    <div className="h-screen">
+    <div className="h-screen ">
       {/* <Navbar /> */}
       <Hero />
-      <div className=" w-full ">
+      {/* {<AboutMe />} */}
+      {/* <Skills /> */}
+      <div className="  w-3/4  md:w-2/4  mx-auto">
         <AboutMe />
         <Skills />
-        <div className="grid grid-row md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mt-[4rem] w-full mx-auto  p-4">
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-        </div>
+      </div>
+      <div
+        className=" h-fit mt-[4rem]  md:mx-[8rem]
+        grid grid-row md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4  gap-4 py-[2rem]"
+      >
+        <Card />
+        <Card />
+        <Card />
+        <Card />
       </div>
       <Footer />
     </div>

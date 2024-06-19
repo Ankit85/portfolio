@@ -2,13 +2,16 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="mt-[16.5rem] h-[25rem] bg-black text-white flex justify-between">
+    <div
+      className="mt-[10rem] h-[25rem] bg-black 
+     text-white flex justify-between flex-wrap"
+    >
       <div className="mx-[7.5rem] mt-[10rem]  gap-7 flex w-fit h-fit">
         <a href="#">Projects</a>
         <a href="#">About</a>
         <a href="#">Contact</a>
       </div>{" "}
-      <div className="mx-[7.5rem] mt-[10rem] gap-7  flex flex-col h-fit">
+      {/* <div className="mx-[7.5rem] mt-[10rem] gap-7  flex flex-col h-fit">
         <a href="mailto:demo@gmail.com">demo@gmail.com</a>
 
         <a href="tel:+91999999999">+91999999999</a>
@@ -43,7 +46,7 @@ const Footer = () => {
             />
           </svg>
         </a>
-      </div>
+      </div> */}
     </div>
   );
 };
