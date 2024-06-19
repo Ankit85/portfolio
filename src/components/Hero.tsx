@@ -16,7 +16,7 @@ const Hero = () => {
           </h1>
 
           <p
-            className="text-[2em] tracking-wide  
+            className="text-[2em] tracking-wide  mt-2
           leading-8 "
           >
             Full stack developer | Frontend developer

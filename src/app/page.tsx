@@ -18,7 +18,7 @@ export default function Home() {
       </div>
       <div
         className=" h-fit mt-[4rem]  md:mx-[8rem]
-        grid grid-row md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4  gap-4 py-[2rem]"
+        grid grid-row md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-10 py-[2rem]"
       >
         <Card />
         <Card />
